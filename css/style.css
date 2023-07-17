@@ -101,14 +101,11 @@ main {
   width: 100%; }
 
 #footer {
-  bottom: 0;
-  left: 0;
   max-width: 100%;
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 1px;
-  height: 5vh; }
+  padding: 1px; }
   #footer .iconos {
     border-radius: 50%;
     width: 30px;
