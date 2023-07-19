@@ -1,4 +1,4 @@
-@media screen and (min-width:480px) and (max-width: 768px){
+@media screen and (min-width:320px) and (max-width: 768px){
     .grid {
         grid-template-columns: 1fr;
     }
@@ -34,7 +34,7 @@
 
 //@media screen and (orientation: landscape) and (max-width: 768px)
 
-@media screen and (min-width: 1024px) and (max-width: 1328px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .texto {
         font-size: 1rem;
         align-items: center;

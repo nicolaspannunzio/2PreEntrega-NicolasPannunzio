@@ -1,19 +1,25 @@
 main{
     flex: 1;
 }
-.container{
+
+//Implementando Extend
+.display{
     display: flex;
+}
+
+.container{
+    @extend .display;
     justify-content: center;
     align-items: center;
     padding: 10px; 
 }
 .pueblos{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 30px; 
 }
 .imagen_PUEBLOS{
-    display: flex;
+    @extend .display;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -28,7 +34,7 @@ main{
     font-size: 1.3rem; 
 }
 .side-images{
-    display: flex;
+    @extend .display;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 50px; 
@@ -39,7 +45,7 @@ main{
     margin-bottom: 10px; 
 }
 .elmejor{
-    display: flex;
+    @extend .display;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;

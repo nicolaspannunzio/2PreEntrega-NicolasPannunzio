@@ -1,43 +1,16 @@
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr; }
-  .texto {
-    font-size: 0.5rem; }
-  body {
-    flex-direction: column; }
-  .container {
-    flex-direction: column;
-    align-items: center; }
-  .side-images {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start; }
-  .contenedorimg {
-    grid-template-columns: repeat(2, 1fr); }
-  .rounded-image {
-    width: 100px;
-    height: 100px; } }
-
-@media screen and (min-width: 1024px) and (max-width: 1328px) {
-  .texto {
-    font-size: 1rem;
-    align-items: center; } }
-
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box;
-  vertical-align: baseline; }
+  box-sizing: border-box; }
 
 html {
   scroll-behavior: smooth; }
 
 body {
   background-image: url(../assets/Img/ImagenDeFondo.webp);
-  background-color: white;
+  background-color: #ffffff;
   color: #ffffff;
-  display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0; }
@@ -139,19 +112,20 @@ body {
 main {
   flex: 1; }
 
+.display, body, .container, .imagen_PUEBLOS, .side-images, .elmejor {
+  display: flex; }
+
 .container {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px; }
 
 .pueblos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 30px; }
 
 .imagen_PUEBLOS {
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -166,7 +140,6 @@ main {
   font-size: 1.3rem; }
 
 .side-images {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 50px; }
@@ -177,7 +150,6 @@ main {
   margin-bottom: 10px; }
 
 .elmejor {
-  display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
@@ -205,3 +177,28 @@ main {
     border-radius: 50%;
     width: 30px;
     height: 30px; }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; }
+  .texto {
+    font-size: 0.5rem; }
+  body {
+    flex-direction: column; }
+  .container {
+    flex-direction: column;
+    align-items: center; }
+  .side-images {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; }
+  .contenedorimg {
+    grid-template-columns: repeat(2, 1fr); }
+  .rounded-image {
+    width: 100px;
+    height: 100px; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .texto {
+    font-size: 1rem;
+    align-items: center; } }

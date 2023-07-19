@@ -1,8 +1,8 @@
 body{
     background-image: url(../assets/Img/ImagenDeFondo.webp);
-    background-color: rgb(255, 255, 255);
-    color:#ffffff;
-    display: flex;
+    background-color: $colorDeFondoBlanco;
+    color: $colorDeFondoBlanco;
+    @extend .display;
     flex-direction: column;
     height: 100vh;
     margin: 0;
