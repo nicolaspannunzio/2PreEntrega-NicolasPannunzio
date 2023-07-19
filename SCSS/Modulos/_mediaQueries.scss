@@ -30,6 +30,10 @@
         width: 100px; 
         height: 100px;
     }
+
+    .mobile{
+        flex-direction: column;
+    }
 }
 
 //@media screen and (orientation: landscape) and (max-width: 768px)
