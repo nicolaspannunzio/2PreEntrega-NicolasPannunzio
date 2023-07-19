@@ -4,6 +4,6 @@ body{
     color: $colorDeFondoBlanco;
     @extend .display;
     flex-direction: column;
-    height: 100vh;
+    height: $alturaBody;
     margin: 0;
 }

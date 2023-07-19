@@ -1,12 +1,2 @@
 $colorDeFondoBlanco : #ffffff;
-
-//Implementando mas de una variable, utilizando el método map-get
-
-$colores : (
-    "negro" : #000000,
-    "blanco" : rgb(255, 255, 255),
-);
-$fuentes : (
-    "titulo" : verdana,
-    "normal" : helvetica,
-);
+$alturaBody : 100vh;
