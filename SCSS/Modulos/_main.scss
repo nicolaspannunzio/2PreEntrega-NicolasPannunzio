@@ -14,13 +14,13 @@ main{
 }
 .imagen_PUEBLOS{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     padding-right: 50px; 
 }
 .imagen_PUEBLOS img{
-    height: 70%; 
+    height: 100%; 
 }
 .text{
     margin: 20px;
