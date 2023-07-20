@@ -1,8 +1,46 @@
+//Implementando Mixin con () y sin argumentos.
 @mixin primerMixin(){
     margin: 0;
-    padding: 0;
 }
 
 *{
     @include primerMixin();
+}
+
+// Implementando Mixin sin argumento y sin paréntesis.
+@mixin otroMixinSinParentesis{
+    color: #ffffff;
+}
+
+body{
+    @include otroMixinSinParentesis;
+}
+
+//Implementando Mixin con 1 argumento
+@mixin terceroConArgumento ($argumento1){
+    font-family: $argumento1;
+}
+
+main{
+    div{
+        .elmejor{
+            h2{
+                @include terceroConArgumento (Helvetica);
+            }
+        }
+    }
+}
+
+//Implementando Mixin con mas de un argumentos
+@mixin masDeUnArgumento ($primero, $segundo, $tercero){
+    color: $primero;
+    font-weight: $segundo;
+    font-size: $tercero;
+}
+main{
+    div{
+        .titulo{
+            @include masDeUnArgumento(white, bold, 2em)
+        }
+    }
 }
