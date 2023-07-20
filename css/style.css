@@ -9,7 +9,7 @@ main div .elmejor h2 {
 
 main div .titulo {
   color: white;
-  font-weight: bold;
+  text-decoration: none;
   font-size: 2em; }
 
 * {

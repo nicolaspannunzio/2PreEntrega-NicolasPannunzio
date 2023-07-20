@@ -34,13 +34,13 @@ main{
 //Implementando Mixin con mas de un argumentos
 @mixin masDeUnArgumento ($primero, $segundo, $tercero){
     color: $primero;
-    font-weight: $segundo;
+    text-decoration: $segundo;
     font-size: $tercero;
 }
 main{
     div{
         .titulo{
-            @include masDeUnArgumento(white, bold, 2em)
+            @include masDeUnArgumento(white, none, 2em)
         }
     }
 }
