@@ -177,6 +177,9 @@ main {
   .winner img {
     width: 100%; }
 
+.pagina2 {
+  padding-top: 75px; }
+
 #footer {
   display: flex;
   flex-direction: column;
