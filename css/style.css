@@ -145,8 +145,8 @@ main {
   margin-top: 50px; }
 
 .side-images img {
-  width: 250px;
-  height: 250px;
+  width: 190px;
+  height: 190px;
   margin-bottom: 10px; }
 
 .elmejor {
@@ -212,4 +212,13 @@ main {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {
     font-size: 1rem;
-    align-items: center; } }
+    align-items: center; }
+  .float {
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s; }
+  .float:hover {
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    -moz-transform: translate(0px, 5px); } }
