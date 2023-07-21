@@ -6,4 +6,8 @@ body{
     flex-direction: column;
     height: $alturaBody;
     margin: 0;
+    .nuevoFondo{
+        background-image: url(../assets/Argentina/patagonia.jpg);
+    }
 }
+
