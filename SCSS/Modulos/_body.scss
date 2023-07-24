@@ -4,10 +4,20 @@ body{
     color: $colorDeFondoBlanco;
     @extend .display;
     flex-direction: column;
-    height: $alturaBody;
+    //height: $alturaBody;
     margin: 0;
-    .nuevoFondo{
-        background-image: url(../assets/Argentina/patagonia.jpg);
-    }
+    font-family: Encode Sans;
 }
-
+// .nuevoFondo{
+//     background-image: url(../assets/Argentina/patagonia.jpg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+// }
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&family=Saira+Condensed:wght@100&display=swap');
+.fondoInicio{
+    background-image: url(../assets/imagenFondoInicio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
