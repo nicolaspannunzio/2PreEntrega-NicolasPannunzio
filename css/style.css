@@ -29,7 +29,7 @@ body {
   font-family: Encode Sans; }
 
 .fondoInicio {
-  background-image: url(../assets/imagenFondoInicio.jpg);
+  background-image: url(../assets/imagenFondoInicio.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
