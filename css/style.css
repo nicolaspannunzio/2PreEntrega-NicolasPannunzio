@@ -10,6 +10,7 @@ main div .elmejor h2 {
   font-family: Helvetica; }
 
 main div .titulo {
+  padding: 20px;
   color: white;
   text-decoration: none;
   font-size: 2em; }
@@ -175,6 +176,8 @@ main {
     width: 100%; }
     main div .winner img {
       width: 100%; }
+  main div .populares {
+    margin-top: 76px; }
 
 .display, body, main div .imagen_PUEBLOS, main div .side-images, main div .elmejor, .container {
   display: flex; }
