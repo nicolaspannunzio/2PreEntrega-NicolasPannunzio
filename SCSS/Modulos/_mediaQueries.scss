@@ -50,8 +50,16 @@
     .pagina2 div img{
         width: 100%;
         margin-bottom: 1rem;
+    }      
+    main div .pueblos {
+        width: 100%;
+        padding: 20px;
+        padding-top: 56px;
     }
-              
+
+    main div .pueblos img {
+        max-height: 150px;
+    }
 }
 
 //@media screen and (orientation: landscape) and (max-width: 768px)
