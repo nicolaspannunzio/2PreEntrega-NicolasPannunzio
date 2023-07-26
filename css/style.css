@@ -26,7 +26,6 @@ body {
   background-color: #ffffff;
   color: #ffffff;
   flex-direction: column;
-  height: 100vh;
   margin: 0;
   font-family: Encode Sans; }
   body main div h2 {
@@ -34,6 +33,12 @@ body {
 
 .fondoInicio {
   background-image: url(../assets/imagenFondoInicio.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.fondoBienvenida {
+  background-image: url(../assets/Img/ImagenDeFondo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -144,6 +149,12 @@ main {
     padding-top: 76px;
     text-align: center;
     box-sizing: content-box; }
+  main div h5 {
+    font-family: 'Trebuchet MS'; }
+  main div .pueblos img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover; }
   main p {
     text-align: center;
     padding: 20px; }

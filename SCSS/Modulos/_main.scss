@@ -10,7 +10,14 @@ main{
         padding-top: 76px;
         text-align: center;
         box-sizing: content-box;
-    } p{
+    } div h5{
+        font-family: 'Trebuchet MS';
+    } div .pueblos img{
+        max-height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    p{
         text-align: center;
         padding: 20px;
     }
