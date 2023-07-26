@@ -26,6 +26,7 @@ body {
   background-color: #ffffff;
   color: #ffffff;
   flex-direction: column;
+  height: 100vh;
   margin: 0;
   font-family: Encode Sans; }
   body main div h2 {
@@ -35,13 +36,15 @@ body {
   background-image: url(../assets/imagenFondoInicio.webp);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  height: auto; }
 
 .fondoBienvenida {
   background-image: url(../assets/Img/ImagenDeFondo.webp);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  height: auto; }
 
 #header {
   display: flex; }

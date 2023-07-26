@@ -4,7 +4,7 @@ body{
     color: $colorDeFondoBlanco;
     @extend .display;
     flex-direction: column;
-    //height: $alturaBody;
+    height: $alturaBody;
     margin: 0;
     font-family: Encode Sans;
     main{
@@ -20,10 +20,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
 .fondoBienvenida{
     background-image: url(../assets/Img/ImagenDeFondo.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
