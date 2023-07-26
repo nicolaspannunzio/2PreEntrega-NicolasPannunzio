@@ -156,7 +156,7 @@ main {
     font-family: 'Trebuchet MS'; }
   main div .pueblos img {
     max-height: 200px;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover; }
   main p {
     text-align: center;
@@ -248,7 +248,10 @@ main {
     box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
-    -moz-transform: translate(0px, 5px); } }
+    -moz-transform: translate(0px, 5px); }
+  .pagina2 div img {
+    width: 100%;
+    margin-bottom: 1rem; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {
