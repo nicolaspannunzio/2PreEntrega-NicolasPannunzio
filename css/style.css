@@ -271,7 +271,11 @@ main {
     padding: 20px;
     padding-top: 56px; }
   main div .pueblos img {
-    max-height: 150px; } }
+    max-height: 150px; }
+  .mobile {
+    align-items: end; }
+  main .pagina2 div {
+    flex-grow: column !important; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {

@@ -60,6 +60,14 @@
     main div .pueblos img {
         max-height: 150px;
     }
+    .mobile{
+            align-items: end;
+    }
+    main .pagina2{
+        div{
+            flex-grow: column !important;
+        }
+    }
 }
 
 //@media screen and (orientation: landscape) and (max-width: 768px)
