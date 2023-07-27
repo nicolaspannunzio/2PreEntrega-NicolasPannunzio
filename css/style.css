@@ -26,6 +26,7 @@ body {
   background-color: #ffffff;
   color: #ffffff;
   flex-direction: column;
+  height: 100vh;
   margin: 0;
   font-family: Encode Sans; }
   body main div h2 {
@@ -33,11 +34,6 @@ body {
 
 .fondoInicio {
   background-image: url(../assets/imagenFondoInicio.webp);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.fondoBienvenida {
-  background-image: url(../assets/Img/ImagenDeFondo.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -136,6 +132,19 @@ body {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
 
+header {
+  height: 10vh; }
+  header div nav img {
+    height: 65px;
+    width: 80px;
+    border-radius: 20%;
+    margin-left: 15px; }
+  header .navbar {
+    background-color: #06396d !important; }
+  header div ul li a {
+    color: #fafafa !important;
+    font-weight: bold !important; }
+
 main {
   flex: 1; }
   main div .pueblos {
@@ -189,6 +198,8 @@ main {
       width: 100%; }
   main div .populares {
     margin-top: 76px; }
+  main .titulo {
+    margin-top: 50px; }
 
 .display, body, main div .side-images, main div .elmejor, .container {
   display: flex; }
@@ -208,18 +219,25 @@ main {
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 1px; }
+  padding: 1px;
+  background-color: #7bb8f1;
+  margin-top: 20px;
+  color: #fafafa !important;
+  font-weight: bold !important; }
   #footer .iconos {
     border-radius: 50%;
     width: 30px;
     height: 30px; }
+
+.container-footer {
+  word-wrap: break-word; }
 
 @media only screen and (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr; }
   .texto {
     font-size: 2rem;
-    font-family: 'Marko One', serif; }
+    font-family: 'Marko One'; }
   body {
     flex-direction: column; }
   .container {

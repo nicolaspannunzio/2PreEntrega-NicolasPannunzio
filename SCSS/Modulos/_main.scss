@@ -19,8 +19,7 @@ main{
     } p{
         text-align: center;
         padding: 20px;
-    }
-    div .side-images{
+    } div .side-images{
         @extend .display;
         flex-direction: column;
         align-items: flex-start;
@@ -56,6 +55,9 @@ main{
     }
     div .populares{
         margin-top: 76px;
+    }
+    .titulo{
+        margin-top: 50px;
     }
 }
 
