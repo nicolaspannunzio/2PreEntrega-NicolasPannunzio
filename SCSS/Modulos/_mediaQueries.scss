@@ -63,10 +63,11 @@
     .mobile{
             align-items: end;
     }
-    main .pagina2{
-        div{
-            flex-grow: column !important;
-        }
+    .flex-row {
+        flex-direction: column !important;
+    }
+    .flex-row-reverse {
+        flex-direction: column !important;
     }
 }
 

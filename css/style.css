@@ -274,8 +274,10 @@ main {
     max-height: 150px; }
   .mobile {
     align-items: end; }
-  main .pagina2 div {
-    flex-grow: column !important; } }
+  .flex-row {
+    flex-direction: column !important; }
+  .flex-row-reverse {
+    flex-direction: column !important; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {
