@@ -22,24 +22,20 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-image: url(../assets/Img/ImagenDeFondo.webp);
-  background-color: #ffffff;
+  background-image: url(../assets/fondoweb.webp);
+  background-position: center center;
+  background-size: cover;
   color: #ffffff;
   flex-direction: column;
   height: 100vh;
   margin: 0;
   font-family: Encode Sans; }
   body main div h2 {
-    font-family: 'Marko One', serif; }
-
-.fondoInicio {
-  background-image: url(../assets/imagenFondoInicio.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+    font-family: 'Marko One'; }
 
 #header {
-  display: flex; }
+  display: flex;
+  font-size: 0; }
   #header ul li {
     -webkit-animation: bounce-in-top 2s both;
     animation: bounce-in-top 2s both; }
@@ -138,9 +134,10 @@ header {
     height: 65px;
     width: 80px;
     border-radius: 20%;
-    margin-left: 15px; }
+    margin-left: 15px;
+    font-size: 1rem; }
   header .navbar {
-    background-color: #06396d !important; }
+    background-color: #3573b1 !important; }
   header div ul li a {
     color: #fafafa !important;
     font-weight: bold !important; }
@@ -200,6 +197,48 @@ main {
     margin-top: 76px; }
   main .titulo {
     margin-top: 50px; }
+  main .Skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px; }
+  main .Skills h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; }
+  main .Skills img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+  main .container-fluid {
+    padding: 20px; }
+  main .img-home {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+  main .seccion1, main .seccion2 {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ccc; }
+  main .seccion1 {
+    flex: 1;
+    padding: 20px;
+    font-size: 1rem;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #f1f1f1; }
+  main .seccion2 {
+    flex: 1;
+    padding: 20px;
+    font-size: 1rem;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    background-color: #e6f7ff; }
 
 .display, body, main div .side-images, main div .elmejor, .container {
   display: flex; }
@@ -220,7 +259,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 1px;
-  background-color: #7bb8f1;
+  background-color: #063a65;
   margin-top: 20px;
   color: #fafafa !important;
   font-weight: bold !important; }

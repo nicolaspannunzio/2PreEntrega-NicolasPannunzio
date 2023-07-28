@@ -1,6 +1,9 @@
 body{
-    background-image: url(../assets/Img/ImagenDeFondo.webp);
-    background-color: $colorDeFondoBlanco;
+    background-image: url(../assets/fondoweb.webp);
+    //background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    //background-color: $colorDeFondoBlanco;
     color: $colorDeFondoBlanco;
     @extend .display;
     flex-direction: column;
@@ -10,14 +13,8 @@ body{
     main{
         div{
             h2{
-                font-family: 'Marko One', serif;
+                font-family: 'Marko One';
             }
-        };
+        }
     }
-}
-.fondoInicio{
-    background-image: url(../assets/imagenFondoInicio.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }

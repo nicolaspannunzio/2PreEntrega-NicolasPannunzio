@@ -59,6 +59,56 @@ main{
     .titulo{
         margin-top: 50px;
     }
+    .Skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .Skills h3{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .Skills img{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .container-fluid{
+        padding: 20px;
+    }
+    .img-home{
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .seccion1, .seccion2 {
+        padding: 30px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+    .seccion1 {
+        flex: 1;
+        padding: 20px;
+        font-size: 1rem;
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        background-color: #f1f1f1;
+    }
+    .seccion2 {
+        flex: 1;
+        padding: 20px;
+        font-size: 1rem;
+        display: inline-block;
+        width: 49%;
+        height: 100%;
+        background-color: #e6f7ff;
+    }
 }
 
 //Implementando Extend
