@@ -91,6 +91,11 @@ main{
         text-align: center;
         border: 1px solid #ccc;
     }
+    .secciones{
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+    }
     .seccion1 {
         flex: 1;
         padding: 20px;
@@ -98,7 +103,6 @@ main{
         display: inline-block;
         width: 50%;
         height: 100%;
-        background-color: #f1f1f1;
     }
     .seccion2 {
         flex: 1;
@@ -107,7 +111,6 @@ main{
         display: inline-block;
         width: 49%;
         height: 100%;
-        background-color: #e6f7ff;
     }
 }
 

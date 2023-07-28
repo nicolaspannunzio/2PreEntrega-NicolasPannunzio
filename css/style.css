@@ -34,8 +34,7 @@ body {
     font-family: 'Marko One'; }
 
 #header {
-  display: flex;
-  font-size: 0; }
+  display: flex; }
   #header ul li {
     -webkit-animation: bounce-in-top 2s both;
     animation: bounce-in-top 2s both; }
@@ -223,22 +222,24 @@ main {
     padding: 30px;
     text-align: center;
     border: 1px solid #ccc; }
+  main .secciones {
+    display: flex;
+    align-items: baseline;
+    gap: 20px; }
   main .seccion1 {
     flex: 1;
     padding: 20px;
     font-size: 1rem;
     display: inline-block;
     width: 50%;
-    height: 100%;
-    background-color: #f1f1f1; }
+    height: 100%; }
   main .seccion2 {
     flex: 1;
     padding: 20px;
     font-size: 1rem;
     display: inline-block;
     width: 49%;
-    height: 100%;
-    background-color: #e6f7ff; }
+    height: 100%; }
 
 .display, body, main div .side-images, main div .elmejor, .container {
   display: flex; }
@@ -316,7 +317,19 @@ main {
   .flex-row {
     flex-direction: column !important; }
   .flex-row-reverse {
-    flex-direction: column !important; } }
+    flex-direction: column !important; }
+  .seccion1 {
+    flex: 1;
+    padding: 20px;
+    font-size: 1rem;
+    height: 100%;
+    background-color: #f1f1f1; }
+  .seccion2 {
+    flex: 1;
+    padding: 20px;
+    font-size: 1rem;
+    height: 100%;
+    background-color: #e6f7ff; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {
