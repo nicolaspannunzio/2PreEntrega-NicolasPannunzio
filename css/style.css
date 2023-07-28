@@ -220,8 +220,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
   main .seccion1, main .seccion2 {
     padding: 30px;
-    text-align: center;
-    border: 1px solid #ccc; }
+    text-align: center; }
   main .secciones {
     display: flex;
     align-items: baseline;
@@ -322,14 +321,12 @@ main {
     flex: 1;
     padding: 20px;
     font-size: 1rem;
-    height: 100%;
-    background-color: #f1f1f1; }
+    height: 100%; }
   .seccion2 {
     flex: 1;
     padding: 20px;
     font-size: 1rem;
-    height: 100%;
-    background-color: #e6f7ff; } }
+    height: 100%; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .texto {
