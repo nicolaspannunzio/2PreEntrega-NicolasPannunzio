@@ -39,7 +39,7 @@ main{
 }
 main{
     div{
-        .titulo{
+        .tituloprincipal{
             @include masDeUnArgumento(white, none, 2em);
         }
     }

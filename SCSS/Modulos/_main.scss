@@ -45,7 +45,8 @@ main{
         text-align: center;
     } div .winner{
         gap: 10px;
-        margin-top: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
         align-items: center;
         max-width: 100%;
         width: 100%; 
@@ -56,8 +57,11 @@ main{
     div .populares{
         margin-top: 76px;
     }
-    .titulo{
+    .tituloprincipal{
         margin-top: 50px;
+    }
+    .titulosecundario{
+        font-family: Acme !important;
     }
     .Skills{
         display: flex;
@@ -69,7 +73,8 @@ main{
     .Skills h3{
         width: 100%;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
     }
     .Skills img{
         width: 80px;
@@ -84,6 +89,7 @@ main{
     .img-home{
         max-width: 100%;
         border-radius: 10px;
+        padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .seccion1, .seccion2 {
@@ -95,8 +101,11 @@ main{
         display: flex;
         align-items: baseline;
         gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        //border: 1px solid;
     }
-    .seccion1 {
+    .seccion1{
         flex: 1;
         padding: 20px;
         font-size: 1rem;
@@ -104,13 +113,25 @@ main{
         width: 50%;
         height: 100%;
     }
-    .seccion2 {
+    .seccion2{
         flex: 1;
         padding: 20px;
         font-size: 1rem;
         display: inline-block;
         width: 49%;
         height: 100%;
+    } 
+    .accordion-button{
+        background-color: rgb(5, 105, 140);
+        color: white; 
+    }
+    .tituloinicio{
+        font-family: Vollkorn SC;
+        font-size: 3em;
+    }
+    .Skills{
+        font-family: Shojumaru;
+        font-size: 2em;
     }
 }
 
@@ -124,6 +145,6 @@ main{
     align-items: center;
     padding: 10px; 
 }
-.pagina2 {
+.pagina2{
     padding-top: 75px; 
 }
