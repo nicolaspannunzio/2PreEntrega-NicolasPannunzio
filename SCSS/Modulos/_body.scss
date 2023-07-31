@@ -18,3 +18,11 @@ body{
         }
     }
 }
+.bodyBienvenida{
+    height: $alturaBody;
+    background-image: url(../assets/fondoweb.webp);
+    background-size: cover;
+    color: #ffffff;
+    flex-direction: column;
+    margin: 0;
+    background-repeat: no-repeat;}

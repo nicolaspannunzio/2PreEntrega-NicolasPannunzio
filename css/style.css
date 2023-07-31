@@ -33,6 +33,15 @@ body {
   body main div h1 {
     font-family: 'Marko One'; }
 
+.bodyBienvenida {
+  height: 100vh;
+  background-image: url(../assets/fondoweb.webp);
+  background-size: cover;
+  color: #ffffff;
+  flex-direction: column;
+  margin: 0;
+  background-repeat: no-repeat; }
+
 #header {
   display: flex; }
   #header ul li {
