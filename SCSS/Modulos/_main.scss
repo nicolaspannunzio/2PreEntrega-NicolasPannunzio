@@ -127,14 +127,50 @@ main{
     }
     .tituloinicio{
         font-family: Vollkorn SC;
-        font-size: 3em;
+        font-size: 3em;   
     }
     .Skills{
         font-family: Shojumaru;
         font-size: 2em;
     }
+    .card{
+        -webkit-animation: tilt-in-right-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	    animation: tilt-in-right-2 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .card1{
+        animation-delay: 1s;
+    }
+    .card2{
+        animation-delay: 2s; 
+    }
+    .card3{
+        animation-delay: 3s;
+    }
 }
-
+@-webkit-keyframes tilt-in-right-2 {
+    0% {
+      -webkit-transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+              transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+              transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes tilt-in-right-2 {
+    0% {
+      -webkit-transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+              transform: rotateX(30deg) translateX(300px) skewX(-30deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0deg) translateX(0) skewX(0deg);
+              transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
 //Implementando Extend
 .display{
     display: flex;
