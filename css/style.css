@@ -42,6 +42,16 @@ body {
   margin: 0;
   background-repeat: no-repeat; }
 
+.bodyBienvenida1 {
+  height: auto;
+  background-image: url(../assets/fondoweb.webp);
+  background-size: cover;
+  color: #ffffff;
+  flex-direction: column;
+  margin: 0;
+  background-repeat: no-repeat;
+  margin-top: -70px; }
+
 #header {
   display: flex; }
   #header ul li {
