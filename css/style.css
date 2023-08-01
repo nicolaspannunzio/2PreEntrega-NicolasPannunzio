@@ -34,7 +34,7 @@ body {
     font-family: 'Marko One'; }
 
 .bodyBienvenida {
-  height: 100vh;
+  height: auto;
   background-image: url(../assets/fondoweb.webp);
   background-size: cover;
   color: #ffffff;
@@ -225,7 +225,10 @@ main {
   padding: 10px; }
 
 .pagina2 {
-  padding-top: 75px; }
+  padding-top: 20px; }
+
+#shadowNic {
+  text-shadow: 2px 2px 4px rgba(104, 235, 23, 0.5); }
 
 #footer {
   display: flex;
